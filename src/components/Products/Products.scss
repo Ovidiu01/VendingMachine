@@ -1,0 +1,16 @@
+.products {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1rem solid #84DCC6;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.glass {
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(150, 200, 255, .2), rgba(150, 200, 255, .7));
+    z-index: 2;
+}

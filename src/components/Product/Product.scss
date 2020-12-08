@@ -1,0 +1,27 @@
+.product {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+}
+
+.product .label {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+
+.product:nth-child(2n) .label {
+    background-color: #808080;
+}
